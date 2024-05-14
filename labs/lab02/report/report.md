@@ -84,7 +84,7 @@ header-includes:
 
   Создадим PGP ключ
 
-![Создание PGP ключа ](image/7.png){#fig:002 width=70%}
+![Создание PGP ключа ](images_2/7.png){#fig:002 width=70%}
 
 С помощью команды `gpg --armor --export <PGP Fingerprint> | xclip -sel clip`  скопируем PGP ключ.
 И вставим в наш Github.
@@ -101,7 +101,7 @@ header-includes:
 
 Переходим в репозиторий с шаблоном и создаем из него шаблон.
 
-![Создание репозитория 1](image/14.png){#fig:006 width=70%}
+![Создание репозитория 1](images_2/14.png){#fig:006 width=70%}
 
 Перейдем в репозиторий и удалим `package.json`
 Также создадим файл COURSE с текстом "os-intro"
