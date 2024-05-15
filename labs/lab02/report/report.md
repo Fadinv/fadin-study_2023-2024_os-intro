@@ -107,11 +107,11 @@ header-includes:
 Перейдем в репозиторий и удалим `package.json`
 Также создадим файл COURSE с текстом "os-intro"
 
-![Удаление файла package.json и создание файла COURSE ](images_2/15.png){#fig:01 width=70%}
+![Удаление файла package.json и создание файла COURSE ](images_2/15.png){#fig:011 width=70%}
 
 Теперь запушим изменения. До этого исполнив `git add` и `git commit` с названием коммита `feat(main): make course structure`
 
-![Git push](images_2/16.png){#fig:009 width=70%}
+![Git push](images_2/16.png){#fig:012 width=70%}
 
 
 # Ответы на контрольные вопросы
