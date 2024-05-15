@@ -76,15 +76,15 @@ header-includes:
 
   Сконфигурируем `git` и создадим `SSH` ключ
 
-![Конфигурация GIT 1](images_2/1.png){#fig:001 width=50%}
+![Конфигурация GIT 1](images_2/1.png){#fig:001 width=70%}
 
-![Конфигурация GIT 2](images_2/2.png){#fig:002 width=50%}
+![Конфигурация GIT 2](images_2/2.png){#fig:002 width=70%}
 
-![Создание ключа ssh 1](images_2/3.png){#fig:003 width=50%}
+![Создание ключа ssh 1](images_2/3.png){#fig:003 width=70%}
 
-![Создание ключа ssh 2](images_2/4.png){#fig:004 width=50%}
+![Создание ключа ssh 2](images_2/4.png){#fig:004 width=70%}
 
-![Создание ключа ssh 3](images_2/5.png){#fig:005 width=50%}
+![Создание ключа ssh 3](images_2/5.png){#fig:005 width=70%}
 
   Создадим PGP ключ
 
