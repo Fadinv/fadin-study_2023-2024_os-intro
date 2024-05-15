@@ -76,37 +76,38 @@ header-includes:
 
   Сконфигурируем `git` и создадим `SSH` ключ
 
-![Конфигурация GIT 1](images_2/1.png){#fig:001 width=70%}
-![Конфигурация GIT 2](images_2/2.png){#fig:001 width=70%}
-![Создание ключа ssh 1](images_2/3.png){#fig:001 width=70%}
-![Создание ключа ssh 2](images_2/4.png){#fig:001 width=70%}
-![Создание ключа ssh 3](images_2/5.png){#fig:001 width=70%}
+![Конфигурация GIT 1](images_2/1.png){#fig:001 width=50%}
+![Конфигурация GIT 2](images_2/2.png){#fig:002 width=50%}
+![Создание ключа ssh 1](images_2/3.png){#fig:003 width=50%}
+![Создание ключа ssh 2](images_2/4.png){#fig:004 width=50%}
+![Создание ключа ssh 3](images_2/5.png){#fig:005 width=50%}
 
   Создадим PGP ключ
 
-![Создание PGP ключа ](images_2/7.png){#fig:002 width=70%}
+![Создание PGP ключа ](images_2/7.png){#fig:006 width=70%}
 
 С помощью команды `gpg --armor --export <PGP Fingerprint> | xclip -sel clip`  скопируем PGP ключ.
 И вставим в наш Github.
 
-![Добавление ключей в Github](images_2/10.png){#fig:004 width=70%}
-![Добавление ключей в Github](images_2/9.png){#fig:004 width=70%}
+![Добавление ключей в Github](images_2/10.png){#fig:007 width=70%}
+
+![Добавление ключей в Github](images_2/9.png){#fig:008 width=70%}
 
 Авторизируемся в Github
 
-![Авторизация в Github](images_2/11.png){#fig:005 width=70%}
+![Авторизация в Github](images_2/11.png){#fig:009 width=70%}
 
 
 ## Создание рабочего пространства
 
 Переходим в репозиторий с шаблоном и создаем из него шаблон.
 
-![Создание репозитория 1](images_2/14.png){#fig:006 width=70%}
+![Создание репозитория 1](images_2/14.png){#fig:010 width=70%}
 
 Перейдем в репозиторий и удалим `package.json`
 Также создадим файл COURSE с текстом "os-intro"
 
-![Удаление файла package.json и создание файла COURSE ](images_2/15.png){#fig:008 width=70%}
+![Удаление файла package.json и создание файла COURSE ](images_2/15.png){#fig:01 width=70%}
 
 Теперь запушим изменения. До этого исполнив `git add` и `git commit` с названием коммита `feat(main): make course structure`
 
