@@ -36,7 +36,7 @@ babel-otherlangs: english
 mainfont: PT Serif
 romanfont: PT Serif
 sansfont: PT Sans
-monofont: PT Mon
+monofont: PT Mono
 mainfontoptions: Ligatures=TeX
 romanfontoptions: Ligatures=TeX
 sansfontoptions: Ligatures=TeX,Scale=MatchLowercase
